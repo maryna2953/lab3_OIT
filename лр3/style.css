@@ -1,0 +1,345 @@
+body {
+    padding: 0;
+    color:white;
+    background: url(image/image.png) center no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+
+  }
+
+  header {   
+    position: relative;
+    width: 100%;  
+    height: 500px;
+    background: url(image/digital-solutions.jpg) center no-repeat;
+    background-size: cover;
+    
+  }
+
+  
+
+
+.nav {
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+    background: #6c6b6b;
+    height: 70px;
+    display: inline-block;
+   
+}
+
+
+.nav li {
+    float: right;
+    list-style-type: none;
+    position: relative;
+}   
+
+ 
+
+.nav li a {
+    font-size: 16px; 
+    color: white;
+    display: block; 
+    line-height: 60px;
+    padding: 0 26px;
+    text-decoration: none;
+    border-right: 1px solid #2e2e2e;
+    font-family: sans-serif, Arial;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+.nav li a:hover {
+    background-color: #2e2e2e;
+}
+
+#options a {
+    border: 0 none;
+}
+#options>a {
+    
+    background-position: 85% center;
+    background-repeat: no-repeat;
+    padding-right: 42px;
+}
+.subnav {
+    visibility: hidden;
+    position: absolute;
+    top: 110%;
+    right: 0;
+    width: 200px;
+    height: auto;
+    /* opacity: 0; */
+    transition: all 0.1s;
+    background: #232323;
+}
+.subnav li {
+    float: none;
+}
+.subnav li a {
+    border-bottom: 1px solid #2e2e2e;
+}
+#options:hover .subnav {
+    visibility: visible;
+    top: 100%;
+    /* opacity: 1; */
+}
+
+
+#logo .simvol{
+    float: left; 
+    position: absolute;
+    background: rgb(255 211 15);
+    width: 40px;
+    height: 40px;
+    margin-left: -970px;
+    margin-top: 10px;
+    border-radius: 4px 15px ;
+    
+}
+#search {
+    float: right;  
+    margin-right: -100px;  
+    width: 357px;
+    margin: 4px;
+    margin-top: 10px;    
+}
+#search_text {
+    width: 297px;
+    padding: 15px 0 15px 20px;
+    font-size: 16px;
+    font-family: sans-serif, Arial;
+    border: 0 none;
+    height: 52px;
+    margin-right: 0;
+    color: white;
+    outline: none;
+    background: rgb(255 211 15);
+    float: left;
+    box-sizing: border-box;
+    transition: all 0.15s;
+}
+
+#search_text:focus {
+    background: rgb(255 211 15);
+}
+
+
+#search button {
+    border: 0 none;
+    width: 60px;
+    float: right;
+    padding: 0;
+    text-align: center;
+    height: 52px;
+    cursor: pointer;
+    background-color: white;
+}
+#search button:after{
+    content:"\1F50D";
+    font-size: 30px;
+    
+}
+
+.title{
+    position: relative;
+    left: 30%;
+    top: 44%;
+
+    color: white;
+    width: 400px;
+    height: 61px;
+    font-size: 50px;
+
+    background: rgb(255 211 15);
+    text-align:center;
+    box-shadow: 0 5px 10px ;
+    
+    
+   }
+
+
+main {
+    float : left;
+    max-width: 75%;
+  }
+
+  aside {
+    /* background-color: mediumblue; */
+    float: right;
+    max-width: 25%;
+    min-width: 200px;
+    /* max-height: 600px; */
+    margin-top: 50px;
+    list-style: none;
+  }
+
+
+  #menu-header {
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    color: black;
+  }
+
+
+  
+
+.fotoman{
+    filter: opacity(50%);
+    cursor: pointer;
+    transition: all 1.5s ease;
+    -moz-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    -webkit-transition: all 1.5s ease;
+   
+}
+
+.fotoman:hover{
+    filter: opacity(100%);
+ transform: scale(1.15);
+-webkit-transform: scale(1.15);
+-moz-transform: scale(1.15);
+}
+
+ 
+
+  .div1, .div2{
+    margin: auto; 
+  }
+  
+  .div11 {
+    
+    position:relative;   
+    width:500px;
+    height:300px;
+    margin:30px auto;
+    background-color: rgb(253, 253, 250);
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    color:rgba(36, 25, 25, 0.7);
+}
+
+.foto12{
+    filter: sepia(100%);
+}
+
+.foto12:hover{
+    filter: sepia(0);
+    filter: brightness(120%)
+}
+
+.div22{
+    position: relative;
+    width:200px;
+    height:50x;
+    float: left;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+
+
+.div21{
+    float: right;
+    
+    position:relative;   
+    width:500px;
+    height:300px;
+    margin-right: -110px;
+    margin-bottom: 20px;
+    background-color: rgb(253, 253, 250);
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    color:rgba(36, 25, 25, 0.7);
+}
+
+.div12{
+    position: relative;
+    padding-left: 120px;
+}
+
+
+.foto1, .foto2 {
+  display: block; 
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+
+
+
+}
+.span1, .span2 {
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    top:0;
+    background:rgba(36, 25, 25, 0.7);
+    padding:5px;
+    display:none;
+    font-size: 16px;
+    text-align: center;
+    color:white;
+}
+.div11:hover .span1{
+    display:block;
+}
+
+.div11:hover .foto1, .div21:hover .foto2{
+    display: none;
+}
+
+.div21:hover .span2{
+    display:block;
+}
+
+.div11, .div12{
+    display: inline-block;
+}
+
+.div21, .div22{
+    display: inline-block;
+}
+
+
+
+.updown {
+    color: maroon;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    position: fixed; /* Фиксированное положение */
+    bottom: 10%;
+    right: 10px; /* Расстояние от правого края окна браузера */
+    padding: 10px; /* Поля вокруг текста */ 
+    background: #ffe; /* Цвет фона */ 
+    border: 1px solid #333; /* Параметры рамки */ 
+   }
+
+
+.up:visited, .down:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+ 
+ footer {
+    clear: both;
+    text-align: center;
+    height: 100px;
+    background: rgb(37 52 78);
+    vertical-align: middle;
+    line-height: 100px;
+  }
+.mereji a{
+    color:#0099CC;
+    padding: 30px;
+}
+.mereji a:hover{
+    color: maroon;
+}
+  
